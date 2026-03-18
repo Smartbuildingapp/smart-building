@@ -23,7 +23,7 @@ jobs:
         run: flutter --version
 
       - name: Create platform folders
-        run: flutter create --platforms=android .
+        run: flutter create --platforms=android --project-name smart_building .
 
       - name: Get dependencies
         run: flutter pub get
